@@ -1,4 +1,3 @@
-str1='hello'
-str2='world'
-res1=str1,str2
-print(str1,str2)
+with open(r'C:\Users\10920\Desktop\example.txt', 'r') as file:
+    content = file.read()
+    print(content)
